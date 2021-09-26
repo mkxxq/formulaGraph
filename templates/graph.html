@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% from 'bootstrap/form.html' import render_field %}
+
+{% block content %}
+
+    <h2>画图工具</h2>
+    <form method="post">
+    {{ latex_form.csrf_token }}
+    {{ render_field(latex_form.inputVal) }}
+    {{ render_field(latex_form.submit)  }}
+    </form>
+    {% if img != "" %}
+        <img src="{{ img }}">
+    {% endif %}
+{% endblock %}
