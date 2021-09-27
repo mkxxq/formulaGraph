@@ -3,7 +3,6 @@
 
 {% block content %}
 
-    <h2>画图工具</h2>
     <form method="post">
     {{ latex_form.csrf_token }}
     {{ render_field(latex_form.inputVal) }}
