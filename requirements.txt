@@ -2,4 +2,5 @@ Flask
 Bootstrap-Flask
 Flask-SQLAlchemy
 Flask-WTF
-
+sympy
+antlr4-python3-runtime

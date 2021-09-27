@@ -5,8 +5,8 @@ Type these commands in the terminal:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/greyli/bootstrap-flask.git
-    $ cd bootstrap-flask/examples
+    $ git clone https://github.com/mkxxq/formulaGraph.git
+    $ cd formulaGraph
     $ pip install -r requirements.txt
     $ flask run
 
