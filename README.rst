@@ -1,4 +1,4 @@
-Run the demo application
+Run the formula Graph application
 ========================
 
 Type these commands in the terminal:
